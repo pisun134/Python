@@ -2,9 +2,10 @@ n = int(input())
 h = n // 100
 t = (n // 10) % 10
 o = n % 10
+text = ''
 match h:
     case 1:
-        print(f'Сто')
+        text += 'сто '
     case 2:
         print(f'Двести')
     case 3:
