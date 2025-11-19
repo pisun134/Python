@@ -5,79 +5,82 @@ o = n % 10
 text = ''
 match h:
     case 1:
-        text += 'сто '
+        text += 'Сто '
     case 2:
-        print(f'Двести')
+        text += 'Двести '
     case 3:
-        print(f'Триста')
+        text += 'Триста '
     case 4:
-        print(f'Четыреста')
+        text += 'Четыреста '
     case 5:
-        print(f'Пятьсот')
+        text += 'Пятьсот '
     case 6:
-        print(f'Шестьсот')
+        text += 'Шестьсот '
     case 7:
-        print(f'Семьсот')
+        text += 'Семьсот '
     case 8:
-        print(f'Восемьсот')
+        text += 'Восемьсот '
     case 9:
-        print(f'Девятьсот')
+        text += 'Девятьсот '
+
 match t:
     case 1:
         match o:
             case 0:
-                print(f'Десять')
+                text += 'Десять'
             case 1:
-                print(f'Одиннадцать')
+                text += 'Одиннадцать'
             case 2:
-                print(f'Двенадцать')
+                text += 'Двенадцать'
             case 3:
-                print(f'Тринадцать')
+                text += 'Тринадцать'
             case 4:
-                print(f'Четырнадцать')
+                text += 'Четырнадцать'
             case 5:
-                print(f'Пятнадцать')
+                text += 'Пятнадцать'
             case 6:
-                print(f'Шестнадцать')
+                text += 'Шестнадцать'
             case 7:
-                print(f'Семнадцать')
+                text += 'Семнадцать'
             case 8:
-                print(f'Восемнадцать')
+                text += 'Восемнадцать'
             case 9:
-                print(f'Девятнадцать')
+                text += 'Девятнадцать'
     case 2:
-        print(f'Двадцать')
+        text += 'Двадцать '
     case 3:
-        print(f'Тридцать')
+        text += 'Тридцать '
     case 4:
-        print(f'Сорок')
+        text += 'Сорок '
     case 5:
-        print(f'Пятьдесят')
+        text += 'Пятьдесят '
     case 6:
-        print(f'Шестьдесят')
+        text += 'Шестьдесят '
     case 7:
-        print(f'Семьдесят')
+        text += 'Семьдесят '
     case 8:
-        print(f'Восемьдесят')
+        text += 'Восемьдесят '
     case 9:
-        print(f'Девяносто')
+        text += 'Девяносто '
+
 if t > 1:
     match o:
         case 1:
-            print(f'один')
+            text += 'один'
         case 2:
-            print(f'Два')
+            text += 'Два'
         case 3:
-            print(f'Три')
+            text += 'Три'
         case 4:
-            print(f'Четыре')
+            text += 'Четыре'
         case 5:
-            print(f'Пять')
+            text += 'Пять'
         case 6:
-            print(f'Шесть')
+            text += 'Шесть'
         case 7:
-            print(f'Семь')
+            text += 'Семь'
         case 8:
-            print(f'Восемь')
+            text += 'Восемь'
         case 9:
-            print(f'Девять')
+            text += 'Девять'
+print(text)
